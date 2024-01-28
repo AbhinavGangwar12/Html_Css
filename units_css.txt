@@ -1,0 +1,27 @@
+what is a size unit ?
+used fo define the size/measurement of any scale 
+
+Units are of two types
+--Absolute 
+--Relative
+
+--Relative
+    These units are used to provide the size of to the elements with respect to some other element
+    -- Percentage (%) - gives size with respect to the parent element
+    -- Veiwport height (vh) - gives size accroding to the height of the current system's veiwport (or) 1% of veiwport height
+    -- veiwport width (vw) - gives size accroding to the width of the current system's veiwport (or) 1% of veiwport width
+    -- em - font size of the parent element
+    -- ex - x-height of the parent font
+    -- rem - font size of the root element
+
+
+--Absolute
+    These units are independent and provide size accroding to the set parameter
+    -- Pixels (px) - 1/96 of an inch
+    -- Points (pt) - 1/72 of an inch
+    -- Picas (pc) - 1/6 fo an inch
+    -- Inch (in) - 2.54cm i.e. 96px
+    -- Centimeters - 37.8px
+
+[ NOTE: Default font size of body is 16 pixels ]
+[ NOTE: Avoid using absolute units to make your website responsive ]
