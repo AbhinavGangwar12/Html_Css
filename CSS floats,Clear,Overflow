@@ -1,0 +1,16 @@
+This is all about floats, clear, and overflow in css
+These properties are used in structuring your webpage and provide better looks to the webpage
+--Float - is used to place an element of any size of the webpage
+--Clear - this property is used to decide whether any element will float around you or not
+      Contains tow attributes
+      --Left
+      --right
+    ( make sure this property if applied on the element which you want to remove or place under not in the opposite element )
+
+THE GREAT COLLAPSE 
+When we clear all the elements to one side then the great collapse occur where the height of the parent container becomes zero and the elements inside it starts overflowing from the paarent container
+To resolve this situation we have to mark the overflow condition as " auto ".Now the parent container will take the height of the element having the greatest height
+Similarly for other kind of overflows 
+The overflow property contain several attributes
+hidden - will hide all the content which is overflowing
+scroll - you can scroll through the container to read the overflowing items
